@@ -9,6 +9,9 @@ package com.nikiarsov.app.helpers;
 public class PrintContext {
    private Printable printable;
 
+   /** 
+    * @param Printable
+    */
    public PrintContext(Printable printable){
       this.printable = printable;
    }

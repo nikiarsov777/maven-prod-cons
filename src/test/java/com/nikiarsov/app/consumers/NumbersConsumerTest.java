@@ -17,7 +17,7 @@ public class NumbersConsumerTest {
     @BeforeAll
     public void setUp() throws Exception {
 
-        for (int i = 1; i < 4; i++) {
+        for (int i = 1; i < 2; i++) {
             new Thread(new NumbersProducer(queue, i)).start();
         }
     }

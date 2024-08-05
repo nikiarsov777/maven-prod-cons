@@ -1,5 +1,11 @@
 package com.nikiarsov.app.config;
 
+/** Represent configuration for application
+ * *
+ * @author Nikolai Arsov
+ * @version 1.0
+ */
+
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 

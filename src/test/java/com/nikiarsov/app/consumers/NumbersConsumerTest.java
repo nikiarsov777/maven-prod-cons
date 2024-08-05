@@ -1,5 +1,10 @@
 package com.nikiarsov.app.consumers;
 
+/*** Represent a test number consumer
+ * @author Nikolai Arsov
+ * @version 1.0
+ */
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -14,7 +19,11 @@ public class NumbersConsumerTest {
 
     BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(4);
 
-    @BeforeAll
+    
+	/** 
+	 * @throws Exception
+	 */
+	@BeforeAll
     public void setUp() throws Exception {
 
         for (int i = 1; i < 2; i++) {

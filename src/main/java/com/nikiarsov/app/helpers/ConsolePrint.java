@@ -1,6 +1,6 @@
 package com.nikiarsov.app.helpers;
 
-/**
+/**Represent Printing for console
  * *
  * @author Nikolai Arsov
  * @version 1.0

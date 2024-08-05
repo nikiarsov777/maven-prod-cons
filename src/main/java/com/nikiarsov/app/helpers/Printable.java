@@ -1,5 +1,5 @@
 package com.nikiarsov.app.helpers;
-/*** Present interface of print
+/*** Represent interface of print
  * @author Nikolai Arsov
  * @version 1.0
  */
